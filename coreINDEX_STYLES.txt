@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEP Pulse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <ul class="logo-title">
+            <li>
+                <img src="ueplogo2.png" alt="UEP Pulse Logo">
+                <span>UEP Pulse</span> <!-- Keep the text static -->
+            </li>
+        </ul>
+              
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="profile.html"><i class="fas fa-user"></i> <span>Profile</span></a></li>
+                <li><a href="thought.html"><i class="fas fa-th-list"></i> <span>Categories</span></a></li>
+                <li><a href="notification.html"><i class="fas fa-bell"></i> <span>Notification</span></a></li>
+                <li><a href="aboutUs.html"><i class="fas fa-info-circle"></i> <span>About</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>
+            Your Voice, Our Change – Share Your Thoughts with <br>
+            <span class="highlight blinking">UEP Pulse!</span>
+        </h2>
+        <p>A platform for UEP students to express opinions, raise concerns, and share ideas.</p>
+        <div class="hero-buttons">
+            <a href="feeds.html" class="btn">Join the Conversation</a>
+            <a href="thought.html" class="btn">Share Your Thoughts Now</a>
+        </div>
+    </section>
+    
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Purpose and Benefits of UEP Pulse</h2>
+        <ul class="features-grid">
+            <li class="feature-item" style="background-image: url('ideas.jpeg');">
+                <strong><h3>Engage with Campus Issues:</h3></strong> <p> Create engaging discussions on a wide range of topics that truly matter to our campus community, allowing students to share their thoughts, experiences, and insights on issues that impact their lives and the world around them.
+            </li>
+            <li class="feature-item" style="background-image: url('connect.jpeg');">
+                <strong><h3>Connect with Fellow Students:</h3></strong> <p> Share your innovative ideas, express your concerns, and offer thoughtful suggestions that can contribute to enhancing our campus environment and fostering a sense of community among students.
+            </li>
+            <li class="feature-item" style="background-image: url('future.jpeg');">
+                <strong><h3>Shape the Future of UEP:</h3></strong> <p> Help improve our campus by raising your voice and actively participating in discussions that influence positive change, ensuring that your opinions and suggestions are heard and valued in the decision-making process.
+            </li>
+        </ul>           
+    </section>
+    
+    
+    
+
+<!-- About Us Section -->
+<section class="about">
+    <h2>About the Creators of this Website</h2>
+    <div class="scroll-container">
+        <ul class="about-grid">
+            <li>
+                <img src="jhiamae.png" class="about-image"> <!-- Replace with your image path -->
+                <strong><h3>Rosemarie Luna</h3></strong>  
+                <p><span>(Developer)</span></p> 
+                <p>Create discussions on topics that matter.</p>
+            </li>
+            <li>
+                <img src="jhiamae.png" class="about-image"> <!-- Replace with your image path -->
+                <strong><h3>Belly Joe Garin</h3></strong> 
+                <p><span>(UI Expert)</span></p> 
+                <p>Share ideas, concerns, and suggestions.</p>
+            </li>
+            <li>
+                <img src="jhiamae.png" class="about-image"> <!-- Replace with your image path -->
+                <strong><h3>Kristine Gumatay</h3></strong> 
+                <p><span>(Back End Expert)</span></p> 
+                <p>Help improve the campus by raising your voice.</p>
+            </li>
+            <li>
+                <img src="jhiamae.png" class="about-image"> <!-- Replace with your image path -->
+                <strong><h3>Jeremy Oladive</h3></strong> 
+                <p><span>(Front End Expert)</span></p> 
+                <p>Share ideas, concerns, and suggestions.</p>
+            </li>
+            <li>
+                <img src="jhiamae.png" class="about-image"> <!-- Replace with your image path -->
+                <strong><h3>Ara Escora</h3></strong> 
+                <p><span>(Database Expert)</span></p> 
+                <p>Help improve the campus by raising your voice.</p>
+            </li>
+        </ul>
+            <script src="script.js"></script>
+    </div>
+    <div class="dot-indicators"></div> <!-- Dot indicators -->
+</section>
+
+
+
+ <!-- How It Works Section -->
+<section class="how-it-works">
+    <h2>How It Works</h2>
+    <ul class="steps">
+        <li><strong>1. Login Acoount:</strong> Login with your email address and password.</li>
+        <li><strong>2. Browse Topics:</strong> Explore concerns raised by other students.</li>
+        <li><strong>3. Submit Your Own:</strong> Use the suggestion box to submit your concerns or ideas.</li>
+        <li><strong>4. Engage:</strong> Discuss and upvote other students' posts.</li>
+    </ul>
+</section>
+
+<!-- Flip Section -->
+<link rel="stylesheet" href="image-section.css"> <!-- Link to your new CSS file -->
+
+<section class="image-row-section">
+    <h2>Documents</h2>
+    <div class="image-row">
+        <div class="image-container">
+            <img src="belly1.jpeg" alt="Image 1" class="image" />
+            <p class="image-text">This is the text for Image 1.</p>
+        </div>
+        <div class="image-container">
+            <img src="belly2.jpeg" alt="Image 2" class="image" />
+            <p class="image-text">This is the text for Image 2.</p>
+        </div>
+        <div class="image-container">
+            <img src="belly3.jpeg" alt="Image 3" class="image" />
+            <p class="image-text">This is the text for Image 3.</p>
+        </div>
+        <div class="image-container">
+            <img src="belly4.jpeg" alt="Image 4" class="image" />
+            <p class="image-text">This is the text for Image 4.</p>
+        </div>
+        <div class="image-container">
+            <img src="belly5.jpeg" alt="Image 5" class="image" />
+            <p class="image-text">This is the text for Image 5.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- What Students Say Section -->
+<section class="feedback-form">
+    <div class="feedback-options">
+        <label>
+            <input type="radio" name="feedback" value="thanks"> We appreciate your positive feedback! Your support encourages us to keep improving our services.
+            <span class="tooltip">We appreciate your positive feedback!</span>
+        </label>
+        
+        <label>
+            <input type="radio" name="feedback" value="ideas"> Sharing my ideas on improving the campus facilities and services for a better student experience.
+            <span class="tooltip">Your ideas help us grow and improve!</span>
+        </label>
+        
+        <label>
+            <input type="radio" name="feedback" value="custom"> Create your own comment:
+            <span class="tooltip">Feel free to express any thoughts you have.</span>
+        </label>
+        
+        <input type="text" placeholder="Comment here..." class="comment-input" style="display: none;">
+        <p class="word-limit" style="display: none;">Maximum 100 words only!</p>
+    </div>    
+    <button class="submit-btn" style="display: none;">Submit Now!</button>
+    <p class="notification" style="display:none;"></p>
+</section>
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Use</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="social-links">
+            <a href="https://facebook.com/uep">Facebook</a>
+            <a href="https://twitter.com/uep">Twitter</a>
+            <a href="https://instagram.com/uep">Instagram</a>
+        </div>
+        <p>University Town, Catarman Northern Samar<br>uepnsofficial@gmail.com</p>
+    </footer>
+
+    <script src="feedback.js"></script> <!-- Link to your external JavaScript file -->
+
+    <script src="image-row-section.js"></script> <!-- Link to your external JavaScript file -->
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+/* styles.css */
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    color: #333;
+    padding: 0 5%;
+    margin: 0;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('uep.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(5px); /* Adjust blur intensity as needed */
+    z-index: -1; /* Places the blurred image behind content */
+}
+
+/* Add keyframes for the logo animation */
+@keyframes logoAnimation {
+    0% {
+        transform: scale(0.9) rotate(0deg); /* Start slightly smaller and unrotated */
+        opacity: 0.9; /* Start slightly visible */
+        color: rgba(255, 255, 102, 0.9); /* Brighter light yellow */
+    }
+    50% {
+        transform: scale(1.1) rotate(10deg); /* Scale up slightly and rotate */
+        opacity: 1; /* Fully visible */
+        color: rgb(76, 210, 255); /* Brighter full blue */
+    }
+    100% {
+        transform: scale(0.9) rotate(0deg); /* Return to slightly smaller size and original rotation */
+        opacity: 0.9; /* Fade out slightly */
+        color: rgba(255, 255, 102, 0.9); /* Return to brighter light yellow */
+    }
+}
+
+/* Apply the animation to the logo */
+.logo-title img {
+    animation: logoAnimation 2s ease-in-out infinite; /* Animation duration, easing, and infinite loop */
+    display: inline-block; /* Necessary for transform effects */
+    margin-right: 0.5em; /* Space between the image and text */
+    height: 100px; /* Set a height for the logo, adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.logo-title {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+.logo-title li {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.logo-title span {
+    font-size: 3em; /* Increase font size (adjust as needed) */
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #FFEA00, #00BFFF); /* Gradient from light yellow to blue */
+    -webkit-background-clip: text; /* Clip the background to text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent */
+    margin-left: 0.5em; /* Space between image and text */
+    display: inline-block; /* Make the span block-level for animation */
+    animation: heartbeat 2s ease-in-out infinite; /* Adjusted animation timing to match logo */
+}
+
+/* Heartbeat animation */
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1); /* Normal size */
+    }
+    50% {
+        transform: scale(1.1); /* Scale up to 110% */
+    }
+}
+
+
+
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        max-height: 0; /* Hide initially */
+        overflow: hidden; /* Prevent overflow */
+    }
+    
+    .nav-toggle {
+        display: block; /* Show the toggle button on smaller screens */
+    }
+
+    .nav-list.active {
+        display: flex; /* Show the nav list when active */
+        max-height: 500px; /* Set a max height for the expanded state */
+    }
+}
+
+
+
+
+/* Header */
+.header {
+    background-color: rgba(0, 0, 139, 0.6); /* Dark blue with 60% transparency */
+    /* Other header styling as needed */
+    /* Optionally, add padding, height, etc. */
+    padding: 1em; /* Example padding */
+    /* Remove the animation */
+}
+
+/* If you have other styles for your header, keep them here */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.644); /* Slightly change background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+header.scrolled {
+    position: fixed; /* Fix the header when scrolled */
+    top: 0; /* Align to the top */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: rgba(0, 0, 0, 0.644); /* Slightly change background on hover */
+    padding: 1em; /* Reduced padding for the fixed state */
+}
+
+
+.header .logo-title {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.header .logo-title img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 30px; /* Space between logo and text */
+}
+
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Transition for color change */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+}
+
+header nav ul li a i {
+    margin-right: 0.5em; /* Space between the icon and text */
+    font-size: 1.2em; /* Adjust icon size as needed */
+}
+
+/* Other existing styles remain unchanged */
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3em;
+}
+
+header nav ul li {
+    transition: transform 0.3s ease; /* Transition for scaling */
+}
+
+header nav ul li:hover {
+    transform: scale(1.1); /* Scale up the list item */
+}
+
+header nav ul li a:hover {
+    color: #FFCC00; /* Change color on hover */
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4em 2em;
+    color: #fff;
+    border-radius: 8px;
+    margin: 2em auto; /* 2em top and bottom, auto left and right for centering */
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: 120%; /* Slightly larger than cover for spacing */
+    background-position: center; /* Centers the image */
+    position: relative; /* Allows positioning of the text if needed */
+}
+
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #ffffff; /* White color for text */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    letter-spacing: 1px; /* Slightly increased spacing between letters */
+}
+
+.highlight {
+    color: #FFCC00; /* Yellow color */
+    font-weight: bold; /* Makes the text bold */
+    padding: 0.2em 0.4em; /* Optional: adds some padding around the text */
+    border-radius: 4px; /* Optional: rounds the corners of the background */
+    display: inline-block; /* Ensures it behaves like a block for padding and margin */
+    margin-top: 0.5em; /* Adds space above the highlighted text */
+}
+
+@keyframes blinkZoom {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
+        transform: scale(1); /* Normal size */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+        transform: scale(1.1); /* Slightly zoomed in */
+    }
+}
+
+.blinking {
+    animation: blinkZoom 1s infinite; /* 1s duration, infinite repetition */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.hero .btn {
+    margin: 1em;
+    padding: 12px 25px;
+    background: rgb(18, 18, 116); /* Original button background color */
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* No underline on links */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transitions for background and transform */
+}
+
+.hero .btn:hover {
+    background-color: #ffb300; /* Change background color on hover */
+    transform: scale(1.1); /* Scale up the button on hover */
+}
+
+
+
+
+
+/* Purpose Section */
+/* Purpose Section */
+.features {
+    text-align: center;
+    padding: 4em 2em;
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(71, 86, 117, 0.05);
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background with 50% opacity */
+    padding: 0.5em 1em; /* Add some padding around the text */
+    border-radius: 50px; /* Significantly more rounded corners */
+    display: inline-block; /* Allows the background to wrap around the text */
+}
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+    gap: 2em;
+    list-style: none;
+    padding: 0;
+    padding: 2em;
+}
+
+/* Full background image with dark overlay for each grid item */
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;  /* Fill the width of the grid cell */
+    height: 250px; /* Set a larger height for portrait rectangle */
+    padding: 1.5em;
+    border-radius: 8px;
+    position: relative; /* Needed for overlay positioning */
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow transition */
+    color: #ffffff; /* Text color for readability */
+    background-size: cover; /* Ensure background covers the item */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Dark overlay for each item */
+.feature-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+    z-index: 1; /* Ensures overlay sits above the background but below text */
+    border-radius: 8px;
+}
+
+/* Text elements inside feature-item */
+.feature-item h3 {
+    position: relative;
+    color: rgb(240, 233, 233);
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    border-radius: 8px;
+    z-index: 2; /* Places text above the overlay */
+}
+
+.feature-item p {
+    position: relative;
+    text-size-adjust: small;
+    color: rgb(234, 220, 220);
+    z-index: 2; /* Places text above the overlay */
+}
+
+/* Hover effect for grid items */
+.feature-item {
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.feature-item:hover {
+    transform: scale(1.2); /* Scale up the hovered item even more */
+    background-color: rgba(171, 218, 255, 0.8); /* Lighten the background on hover */
+    box-shadow: 0 0 15px rgba(242, 255, 171, 0.8); /* Add glowing effect */
+}
+
+/* Make other items smaller when one is hovered */
+.feature-item:hover ~ .feature-item {
+    transform: scale(0.9); /* Scale down other items */
+}
+
+.feature-item h3::before {
+    content: ""; /* Required to create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px; /* Optional: rounds the corners of the overlay */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .features-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 column on smaller screens */
+    }
+
+    .feature-item {
+        height: 200px; /* Adjust size for smaller screens */
+    }
+}
+
+
+/* Post Section */
+.about {
+    text-align: center;
+    padding: 4em 2em;
+    margin: 2em 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background with 50% opacity */
+    padding: 0.5em 1em; /* Add some padding around the text */
+    border-radius: 50px; /* Significantly more rounded corners */
+    display: inline-block; /* Allows the background to wrap around the text */
+}
+
+.about h3 {
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+.about p {
+    margin-bottom: 1em;
+    color: #e7dada;
+}
+
+
+.about {
+    text-align: center; /* Center the title */
+    margin: 2em 0; /* Add some margin around the section */
+}
+
+.about {
+    text-align: center; /* Center the title */
+    margin: 2em 0; /* Add some margin around the section */
+}
+
+.about {
+    text-align: center; /* Center the title */
+    margin: 2em 0; /* Add some margin around the section */
+}
+
+.about {
+    text-align: center; /* Center the title */
+    margin: 2em 0; /* Add some margin around the section */
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns for a single-row layout */
+    gap: 2em; /* Space between grid items */
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    justify-items: center; /* Center items in grid cells */
+}
+.about-grid li {
+    display: flex; /* Use Flexbox for layout within each item */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent background */
+    border-radius: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease; /* Added background transition */
+    filter: blur(0); /* No blur by default */
+}
+
+/* Change here for zoom and lighten effect */
+.about-grid li:hover {
+    transform: scale(1.05); /* Scale up the item to create a zoom effect */
+    background-color: rgba(6, 35, 57, 0.8); /* Lighter background color on hover */
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.5), /* Outer white glow */
+                0px 0px 15px rgba(0, 255, 255, 0.5); /* Inner blue glow */
+    filter: blur(0); /* Clear hover item */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+
+/* Blur effect for non-hovered items */
+.about-grid li:not(:hover) {
+    filter: blur(2px); /* Blur the non-hovered items */
+}
+
+/* Increased image size */
+.about-image {
+    width: 120px; /* Set image width */
+    height: 120px; /* Set image height */
+    margin-bottom: 1em; /* Space below the image */
+    border-radius: 4px; /* Optional: round the image corners */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Add this hover effect for images */
+.about-grid li:hover .about-image {
+    transform: scale(1.2); /* Scale up the image to create a larger zoom effect */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr; /* Keep 1 column on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 column on smaller screens */
+    }
+
+    .about-image {
+        width: 100px; /* Adjust image size for smaller screens */
+        height: 100px; /* Adjust image size for smaller screens */
+    }
+}
+
+
+/* How it works section */
+.how-it-works {
+    text-align: center; /* Center the text */
+    padding: 4em 2em; /* Add padding */
+    margin: 2em 0; /* Add margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background with 50% opacity */
+    padding: 0.5em 1em; /* Add some padding around the text */
+    border-radius: 50px; /* Significantly more rounded corners */
+    display: inline-block; /* Allows the background to wrap around the text */
+}
+
+
+.steps {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.steps li {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 8px; /* Rounded corners for items */
+    padding: 1em; /* Padding inside list items */
+    margin: 1em 0; /* Spacing between items */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.steps li:hover {
+    transform: scale(1.1); /* Enlarge the hovered item */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.steps li:hover ~ li {
+    transform: scale(0.9); /* Slightly shrink the non-hovered items */
+}
+
+/* Feedback section */
+.feedback-form {
+    margin: 4rem auto; /* Center the form with margin above and below */
+    text-align: left;
+    width: 100%; /* Make it flexible with screen size */
+    max-width: 1500px; /* Set a max width for the form */
+    border-radius: 8px;
+    padding: 2.5rem; /* Maintain larger padding inside form */
+}
+
+.feedback-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem; /* More gap between options */
+    width: 100%; /* Ensure the feedback options take full width */
+    font-size: 1.2rem; /* Adjust this value as needed to make the text larger */
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background with 60% opacity */
+    padding: 1.5rem; /* Add padding to the container */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+
+
+.feedback-options label {
+    color: #ffffff;
+    font-size: 1rem;
+    width: 100%; /* Ensure labels take full width */
+}
+
+.feedback-options input[type="radio"] {
+    margin-right: 0.5rem; /* Space between radio button and label */
+}
+
+.feedback-options input[type="text"] {
+    width: 100%; /* Make sure the input takes full width of its container */
+    padding: 1rem; /* Larger padding in text input */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.word-limit {
+    font-size: 0.85rem;
+    color: #ffffff;
+    text-align: right;
+}
+
+.submit-btn {
+    background: rgb(18, 18, 116); /* Original button background color */
+    color: white;
+    padding: 1rem 2rem; /* Larger padding for button */
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    float: right; /* Float the button to the right */
+    width: auto; /* Set width to auto */
+}
+
+/* Optional: Clear floats if necessary */
+.feedback-form::after {
+    content: "";
+    display: table;
+    clear: both; /* Clear floats */
+}
+
+.submit-btn:hover {
+    background-color: #ffb300;
+}
+
+.tooltip {
+    visibility: hidden; /* Hide tooltip by default */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute; /* Position it relative to the label */
+    z-index: 1;
+    margin-left: 5px; /* Space between label and tooltip */
+    white-space: nowrap; /* Prevent line break */
+}
+
+label:hover .tooltip {
+    visibility: visible; /* Show tooltip on hover */
+}
+
+
+/* Footer */
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Start fully transparent */
+        transform: translateY(-20px); /* Moves the footer slightly up */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Original position */
+    }
+}
+
+/* Footer */
+footer {
+    width: 100%; /* Full width */
+    padding: 2em 1em; /* Padding around footer content */
+    color: #fff; /* Text color */
+    text-align: center; /* Center text */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    margin-top: 2em; /* Space above the footer */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s ease forwards; /* Apply fade-in animation */
+    animation-delay: 0.5s; /* Delay for better visibility */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start fully transparent */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+    }
+}
+
+.footer-links,
+.social-links {
+    margin-bottom: 1em;
+}
+
+/* Link styles */
+.footer-links a,
+.social-links a {
+    color: #FFCC00; /* Yellow link color */
+    text-decoration: none;
+    margin: 0 15px; /* Increased spacing between links */
+    transition: color 0.3s ease, transform 0.3s ease; /* Added transform for hover */
+}
+
+/* Hover effect for links */
+.footer-links a:hover,
+.social-links a:hover {
+    color: #ffb300; /* Darker yellow on hover */
+    transform: scale(1.1); /* Slightly enlarge link on hover */
+}
+
+/* Footer paragraph styles */
+footer p {
+    margin-top: 1em; /* Space above the paragraph */
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #f0f0f0; /* Light gray color for the footer text */
+}
+
+
+/* Body and Layout Adjustments */
+body, html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    flex: 1;
+}
+
+
+
+
+
+
+
